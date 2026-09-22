@@ -1,0 +1,31 @@
+# use the standard docker image of python 3.11.7 on a slim version of Debian Bookworm
+FROM python:3.11.7-slim-bookworm
+
+COPY py-requirements.txt ./
+COPY py-requirements-no-cuda.txt ./
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# gfortran is required to build the ndd python package
+RUN apt update && apt install -y gfortran git && rm -rf /var/lib/apt/lists/*
+
+# numpy is required before ndd can be built
+RUN pip install numpy
+
+# normal install for computers with an nvidia GPU
+RUN pip install -r py-requirements.txt
+
+# install for computers without an nvidia GPU (e.g. Apple M1 chip computers)
+# RUN pip install -r py-requirements-no-cuda.txt
+
+####### raw commands in case requirements files do not work #######
+
+# RUN pip install ndd pandas matplotlib seaborn embo notebook
+
+# command for computers with an nvidia GPU
+# RUN pip install torch torchvision torchaudio
+
+# command for computers without an nvidia GPU
+# RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# RUN pip install pyro-ppl
