@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# too large
+Glaze_Triangles/processed/trials.csv
