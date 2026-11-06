@@ -1,0 +1,9 @@
+Study,Session,x,y,n,rho,p_value
+HMM_inst,High,best_model_betastar,Ixr,47,0.6983327071651496,4.8363634244116025e-08
+HMM_inst,High,fullparam_h,info_efficiency,47,-0.5884336579577335,1.3611367342596058e-05
+HMM_inst,Low,best_model_betastar,Ixr,54,0.8585696858798415,1.0423327395239206e-16
+HMM_inst,Low,fullparam_h,info_efficiency,54,0.7632045442935733,1.955218299043685e-11
+HMM_noinst,High,best_model_betastar,Ixr,56,0.7981664190854515,1.748048529508713e-13
+HMM_noinst,High,fullparam_h,info_efficiency,56,-0.7455724465487386,4.34310607431378e-11
+HMM_noinst,Low,best_model_betastar,Ixr,72,0.8498424133273302,3.75907938944506e-21
+HMM_noinst,Low,fullparam_h,info_efficiency,72,0.6924635812801909,1.605739622355853e-11

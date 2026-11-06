@@ -1,0 +1,34 @@
+{
+  "helper_sha256": "b51af4e4cffecd878ddf11633a3c218ccc79863026afab8dcc88920fbe6ebd5d",
+  "config": {
+    "wsize": 7,
+    "ci": [
+      2.5,
+      97.5
+    ],
+    "boot": 10000,
+    "nb": 1000,
+    "ns": 10000,
+    "limit": 100000,
+    "seed": 234,
+    "stay": {
+      "Low": 0.99,
+      "High": 0.01
+    },
+    "analysis_version": "2026-11-06-v2",
+    "utilities": "69d0f28c8061a41e8a328676b54d3e09ddfda4051030018886a409c37edff5c9"
+  },
+  "smoke": false,
+  "python": "3.11.7",
+  "data": {
+    "HMM_inst_beads_finaldat_long.csv": "c2f323850a0541bcffba6f1fb7f6bbce497c7c8d0dcd1d1c79ec2a3024f4320f",
+    "HMM_noinst_beads_finaldat_long.csv": "29ab1beb07f4a4a378bbad7fec7be0656516e4ab9b11447669b78abe67b5e7ca"
+  },
+  "versions": {
+    "numpy": "1.26.3",
+    "pandas": "2.1.4",
+    "scipy": "1.11.4",
+    "matplotlib": "3.8.2",
+    "ndd": "1.10.6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "executed_code_cells": 17,
+  "notebook_errors": 0,
+  "embedded_svg_figures": 9,
+  "participant_sessions": 282,
+  "paired_participants": 141,
+  "models_fit": 846,
+  "reference_bootstrap_sessions_compared": 41,
+  "bootstrap_max_abs_difference": 9.1e-17,
+  "all_selected_optimizer_success": true,
+  "parity_tests": "python -m unittest discover -s Filipowicz_beads -p test_analysis_helpers.py",
+  "psychometric_grouping": "participant/session/unique seven-bead sequence, separately per strategy",
+  "example_IB_points_with_CI": 4,
+  "arrow_reference_style": true,
+  "arrow_bounds": "Low full and Low one-back only"
+}
