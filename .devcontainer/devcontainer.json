@@ -9,8 +9,8 @@
 		},
 
 	"mounts": [
-        "source=${localEnv:USERPROFILE}/Documents/academic/data/Glaze_Triangles,target=/workspaces/behavioral_data_reanalyses_IB/data/Glaze_Triangles,type=bind,consistency=cached",
-		"source=${localEnv:USERPROFILE}/Documents/academic/data/auditory_triangles,target=/workspaces/behavioral_data_reanalyses_IB/data/auditory_triangles,type=bind,consistency=cached"
+        "source=${localEnv:HOME}/Documents/academic/data/Glaze_Triangles,target=/workspaces/behavioral_data_reanalyses_IB/data/Glaze_Triangles,type=bind,consistency=cached",
+		"source=${localEnv:HOME}/Documents/academic/data/auditory_triangles,target=/workspaces/behavioral_data_reanalyses_IB/data/auditory_triangles,type=bind,consistency=cached"
     ]
 
 	// "mounts": [

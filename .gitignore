@@ -219,3 +219,10 @@ __marimo__/
 
 # too large
 Glaze_Triangles/processed/trials.csv
+
+# devcontainer files
+.devcontainer/
+DOCKERFILE
+
+# pkl files
+*.pkl
