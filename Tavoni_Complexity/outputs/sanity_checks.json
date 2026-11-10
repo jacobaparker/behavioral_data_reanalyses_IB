@@ -1,0 +1,211 @@
+{
+  "checks": [
+    {
+      "check": "gaussian_unique_trial_keys",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_finite_stimuli_and_latents",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_chronological_blocks",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_unique_trial_keys",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_finite_stimuli_and_latents",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_chronological_blocks",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_169_subjects_507_blocks",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_400_trials_40_training",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_three_conditions_per_subject",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_53_complete_subjects",
+      "passed": true,
+      "details": "53 complete; 69 subject files"
+    },
+    {
+      "check": "bernoulli_complete_subjects_4x300",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_feedback_matches_sequence",
+      "passed": true,
+      "details": "64241 independently reconstructed targets"
+    },
+    {
+      "check": "bernoulli_keys_match_choice_images",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_display_is_previous_bead",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_all_model_fits_present",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_finite_fit_metrics",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_bic_weights_normalized",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_optimizer_success",
+      "passed": true,
+      "details": "0 unsuccessful terminations"
+    },
+    {
+      "check": "gaussian_sse_recomputed_from_trials",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_all_model_fits_present",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_finite_fit_metrics",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_bic_weights_normalized",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "bernoulli_optimizer_success",
+      "passed": true,
+      "details": "0 unsuccessful terminations"
+    },
+    {
+      "check": "bernoulli_sse_recomputed_from_trials",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_nested_delta_mixture",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "gaussian_nested_window_mixture",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "warnings": [
+    "H40P86 archive has realized h\u22480.05,p\u22480.98, inconsistent with nominal h=0.40,p=0.86; nominal fits flagged, empirical-statistics sensitivity exported.",
+    "Gaussian prior SD=150 is inferred from raw generative residuals; change via --gaussian-prior-sd for sensitivity analysis.",
+    "Fits and model-selection metrics are in-sample; BIC weights are descriptive within-subject weights, not group variational Bayes probabilities.",
+    "The original subject-fitting code/outputs are absent. These are new fits using the documented equations, not a claim of bitwise reproduction.",
+    "Partial Bernoulli blocks retained but not fitted; complete blocks from partial sessions have completed_experiment=False.",
+    "Windows exceeding the 400-trial block are weakly identified; window_exceeds_block and parameter_at_search_boundary flags accompany fits."
+  ],
+  "random_example_subjects": {
+    "gaussian": [
+      "G_varh_047",
+      "G_varR_028",
+      "G_varR_035"
+    ],
+    "bernoulli": [
+      "B_064",
+      "B_014",
+      "B_018"
+    ]
+  },
+  "table_shapes": {
+    "gaussian_subject_conditions": [
+      507,
+      191
+    ],
+    "bernoulli_subject_conditions": [
+      217,
+      91
+    ],
+    "gaussian_trials": [
+      202800,
+      38
+    ],
+    "bernoulli_trials": [
+      64242,
+      47
+    ],
+    "gaussian_model_fits": [
+      4056,
+      30
+    ],
+    "bernoulli_model_fits": [
+      642,
+      22
+    ],
+    "bernoulli_subject_inventory": [
+      69,
+      8
+    ],
+    "bernoulli_stimulus_audit": [
+      400,
+      7
+    ],
+    "bernoulli_statistics_sensitivity": [
+      159,
+      21
+    ]
+  },
+  "best_model_counts": {
+    "gaussian": {
+      "evidence": 133,
+      "bayesian": 78,
+      "memoryless": 73,
+      "delta_rule": 68,
+      "sliding_window": 66,
+      "prior": 35,
+      "mixture_sliding_windows": 29,
+      "mixture_delta_rules": 25
+    },
+    "bernoulli_complete_subjects": {
+      "bayesian": 106,
+      "leaky_accumulator": 80,
+      "constant_prior": 26
+    }
+  },
+  "elapsed_seconds": 34.10738480800046
+}

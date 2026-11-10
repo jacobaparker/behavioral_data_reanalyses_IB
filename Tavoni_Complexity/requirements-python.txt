@@ -1,0 +1,7 @@
+numpy>=2.1
+scipy>=1.14
+pandas>=2.2
+matplotlib>=3.9
+pyarrow>=18
+numba>=0.61
+pytest>=8

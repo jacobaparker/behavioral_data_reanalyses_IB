@@ -1,0 +1,39 @@
+{
+  "seed": 20261107,
+  "gaussian_prior_sd": 150,
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "numba": "0.68.1",
+    "matplotlib": "3.11.2",
+    "pyarrow": "26.0.1"
+  },
+  "source_sha256": {
+    "data/Gaussian_task.tar.gz": "81a35a7f05a9c6b55296e943cb6811d00d1ae5966b147505f2fe0ab5d247e50d",
+    "data/Bernoulli_task.tar.gz": "e936b0c3d340d340e4dadae4f74f69e978b914abaac2db50b446a9d174df8d85"
+  },
+  "model_code_sha256": "c13abaabbbad81f04fbb20a6e865d6c2c4dec712a075cac3cf7761ca99fcda86",
+  "python_source_sha256": {
+    "__init__.py": "90cc8a51f7a427bc997ab24dc7234b29faee083736a00a64fb5aaf8f49792993",
+    "data.py": "838019317467506865dcf90f527b09d973a98fe83ed131cdf75cfcd16658925d",
+    "models.py": "c13abaabbbad81f04fbb20a6e865d6c2c4dec712a075cac3cf7761ca99fcda86",
+    "pipeline.py": "40e42e6dd18601ae395849750555c32ca37aed13fde545d945caf51e7c6b5b9d"
+  },
+  "gaussian_models": [
+    "evidence",
+    "prior",
+    "memoryless",
+    "delta_rule",
+    "sliding_window",
+    "mixture_delta_rules",
+    "mixture_sliding_windows",
+    "bayesian"
+  ],
+  "bernoulli_models": [
+    "constant_prior",
+    "leaky_accumulator",
+    "bayesian"
+  ]
+}

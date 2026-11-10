@@ -1,0 +1,1840 @@
+{
+  "gaussian_subject_conditions": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "task": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "block_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "sequence_id": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "noise_ratio": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "n_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_fit_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_valid_responses": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_training_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_excluded_test_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "median_rt_ms": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "response_mean": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "response_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "fit_status": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "cohort": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "prior_mean": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prior_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "observation_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "complete_block": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "completed_experiment": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "subject_mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "subject_rmse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "subject_mae": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "subject_normalized_mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_observation_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_latent_mean": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_latent_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bayesian_task_mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "subject_relative_inaccuracy": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bayesian__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__sse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__mse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__rmse": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__mae": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "delta_rule__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "evidence__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "memoryless__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "mixture_delta_rules__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "mixture_sliding_windows__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "prior__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "sliding_window__r2": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "bayesian__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__log_likelihood": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__aic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__delta_bic": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__bic_weight": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__n_parameters": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "delta_rule__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "evidence__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "memoryless__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "mixture_delta_rules__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "mixture_sliding_windows__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "prior__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "sliding_window__parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "bayesian__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__optimizer_success": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__algorithmic_complexity": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__window_exceeds_block": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "bayesian__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "delta_rule__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "evidence__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "memoryless__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_delta_rules__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "mixture_sliding_windows__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "prior__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "sliding_window__parameter_at_search_boundary": {
+      "dtype": "object",
+      "missing": 0
+    },
+    "best_model": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "selection_criterion": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "best_model_score": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_rmse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_r2": {
+      "dtype": "float64",
+      "missing": 1
+    },
+    "best_model_bic_weight": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_algorithmic_complexity": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "best_model_bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_sse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model_by_bic": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "bic_gap": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "selection_tied_models": {
+      "dtype": "str",
+      "missing": 0
+    }
+  },
+  "bernoulli_subject_conditions": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "task": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "block_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "sequence_id": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "noise_ratio": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "n_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_fit_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_valid_responses": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_training_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_excluded_test_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "median_rt_ms": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "response_mean": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "response_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "fit_status": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "reliability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "nominal_statistics_suspect": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "complete_block": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "completed_experiment": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "source_csv_truncated": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "accuracy": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_reliability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "stimulus_source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "subject_mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bayesian_task_mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "subject_relative_inaccuracy": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bayesian__sse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__sse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__sse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__mse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__mse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__mse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__rmse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__rmse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__rmse": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__mae": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__mae": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__mae": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__r2": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__r2": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__r2": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__log_likelihood": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__log_likelihood": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__log_likelihood": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__aic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__aic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__aic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__delta_bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__delta_bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__delta_bic": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__bic_weight": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__bic_weight": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__bic_weight": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__decision_noise_sd": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__n_parameters": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__n_parameters": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__n_parameters": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__parameters_json": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "constant_prior__parameters_json": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "leaky_accumulator__parameters_json": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "bayesian__optimizer_success": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__optimizer_success": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__optimizer_success": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "bayesian__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "constant_prior__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "leaky_accumulator__decision_noise_at_upper_bound": {
+      "dtype": "object",
+      "missing": 3
+    },
+    "best_model": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "selection_criterion": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "best_model_score": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_rmse": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_r2": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_bic_weight": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_algorithmic_complexity": {
+      "dtype": "float64",
+      "missing": 217
+    },
+    "best_model_parameters_json": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "best_model_bic": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_sse": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "best_model_by_bic": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "bic_gap": {
+      "dtype": "float64",
+      "missing": 3
+    },
+    "selection_tied_models": {
+      "dtype": "str",
+      "missing": 3
+    },
+    "sensitivity_best_model": {
+      "dtype": "str",
+      "missing": 164
+    },
+    "sensitivity_hazard_rate": {
+      "dtype": "float64",
+      "missing": 164
+    },
+    "sensitivity_reliability": {
+      "dtype": "float64",
+      "missing": 164
+    }
+  },
+  "gaussian_trials": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "task": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "cohort": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "block_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "trial_in_block": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "is_training": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "stimulus": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "response": {
+      "dtype": "float64",
+      "missing": 2165
+    },
+    "latent_state": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "noise_ratio": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prior_mean": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prior_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "observation_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "rt_ms": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "valid_response": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "included_in_fit": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "exclusion_reason": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "squared_error": {
+      "dtype": "float64",
+      "missing": 2165
+    },
+    "absolute_error": {
+      "dtype": "float64",
+      "missing": 2165
+    },
+    "is_change_point": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "change_point_observed": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "sequence_id": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "trial_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "internal_node_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "prediction__evidence": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__prior": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__memoryless": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__delta_rule": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__sliding_window": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__mixture_delta_rules": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__mixture_sliding_windows": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__bayesian": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "best_model": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "best_model_prediction": {
+      "dtype": "float64",
+      "missing": 0
+    }
+  },
+  "bernoulli_trials": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "task": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "block_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "trial_in_block": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "stimulus": {
+      "dtype": "float64",
+      "missing": 217
+    },
+    "response": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "latent_state": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "target_bead": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "stimulus_urn": {
+      "dtype": "float64",
+      "missing": 217
+    },
+    "target_urn_raw": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "target_bead_raw": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "reliability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "noise_ratio": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "nominal_statistics_suspect": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "target_black_probability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "rt_ms": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "key_press": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "stimulus_image": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "valid_response": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "complete_block": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "included_in_fit": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "exclusion_reason": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "is_training": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "correct": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "feedback_correct": {
+      "dtype": "object",
+      "missing": 1
+    },
+    "choice_image_response": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "target_from_feedback": {
+      "dtype": "float64",
+      "missing": 1
+    },
+    "is_change_point": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "change_point_observed": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "sequence_id": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "stimulus_source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "trial_index": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "internal_node_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_csv_truncated": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "completed_experiment": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "prediction__constant_prior": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__leaky_accumulator": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "prediction__bayesian": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "sensitivity_prediction__constant_prior": {
+      "dtype": "float64",
+      "missing": 48342
+    },
+    "sensitivity_prediction__leaky_accumulator": {
+      "dtype": "float64",
+      "missing": 48342
+    },
+    "sensitivity_prediction__bayesian": {
+      "dtype": "float64",
+      "missing": 48342
+    },
+    "best_model": {
+      "dtype": "str",
+      "missing": 42
+    },
+    "best_model_prediction": {
+      "dtype": "float64",
+      "missing": 42
+    }
+  },
+  "gaussian_model_fits": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "model": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "optimizer_success": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "optimizer_method": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "nfev": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "window_exceeds_block": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "parameter_at_search_boundary": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "algorithmic_complexity": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "n_fit_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_parameters": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "sse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "rmse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mae": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "r2": {
+      "dtype": "float64",
+      "missing": 8
+    },
+    "decision_noise_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "decision_noise_at_upper_bound": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "log_likelihood": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "aic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "paper_log_evidence_score": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_log_evidence_approx": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "learning_rate_1": {
+      "dtype": "float64",
+      "missing": 1521
+    },
+    "window_1": {
+      "dtype": "float64",
+      "missing": 3042
+    },
+    "learning_rate_2": {
+      "dtype": "float64",
+      "missing": 3042
+    },
+    "window_2": {
+      "dtype": "float64",
+      "missing": 3549
+    },
+    "delta_bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_weight": {
+      "dtype": "float64",
+      "missing": 0
+    }
+  },
+  "bernoulli_model_fits": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "model": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "parameters_json": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "optimizer_success": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "optimizer_method": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "n_fit_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_parameters": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "sse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "rmse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mae": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "r2": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "decision_noise_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "decision_noise_at_upper_bound": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "log_likelihood": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "aic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "paper_log_evidence_score": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_log_evidence_approx": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "delta_bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_weight": {
+      "dtype": "float64",
+      "missing": 0
+    }
+  },
+  "bernoulli_subject_inventory": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "sequence_id": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_complete_blocks": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "completed_experiment": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "csv_error": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "n_parsed_event_records": {
+      "dtype": "int64",
+      "missing": 0
+    }
+  },
+  "bernoulli_stimulus_audit": {
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "source_file": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "n_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "nominal_hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "nominal_reliability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "empirical_reliability": {
+      "dtype": "float64",
+      "missing": 0
+    }
+  },
+  "bernoulli_statistics_sensitivity": {
+    "subject_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "condition_id": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "model": {
+      "dtype": "str",
+      "missing": 0
+    },
+    "sensitivity_hazard_rate": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "sensitivity_reliability": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "n_fit_trials": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "n_parameters": {
+      "dtype": "int64",
+      "missing": 0
+    },
+    "sse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "rmse": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "mae": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "r2": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "decision_noise_sd": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "decision_noise_at_upper_bound": {
+      "dtype": "bool",
+      "missing": 0
+    },
+    "log_likelihood": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "aic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "paper_log_evidence_score": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_log_evidence_approx": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "delta_bic": {
+      "dtype": "float64",
+      "missing": 0
+    },
+    "bic_weight": {
+      "dtype": "float64",
+      "missing": 0
+    }
+  }
+}
